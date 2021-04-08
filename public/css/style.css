@@ -96,16 +96,17 @@ nav>.logo>img{
 /* change color bullet list */
 
 
-ul {
+li {
 
   list-style: none; 
 
 }
 
 
-ul li::before{
-  content: "o";
+ li::before{
+  content: "•";
   color: red;
+  background-color: ;
   font-weight: bold;
   width: 5px;
   height: 5px;
@@ -164,7 +165,7 @@ margin-left: 17%;}
 /* li */
 
 #contenu>:nth-child(3){
-  margin-left: 17%;
+  margin-left: 15%;
 }
 
 /* où se situe */
