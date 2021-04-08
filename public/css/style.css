@@ -1,4 +1,7 @@
+body{
+  font-family: cursive
 
+}
 
 #newsletter{
   background-color: purple;
@@ -92,10 +95,21 @@ nav>.logo>img{
 
 /* change color bullet list */
 
-li::before{
 
+ul {
+
+  list-style: none; 
+
+}
+
+
+ul li::before{
+  content: "o";
   color: red;
-
+  font-weight: bold;
+  width: 5px;
+  height: 5px;
+  margin-left: -1em;
 }
 
 
@@ -123,7 +137,8 @@ li::before{
 text-align: center;
 font-size: 50px;
 position: relative;
-font-family: ;
+font-family: monospace;
+
 
 }
 
