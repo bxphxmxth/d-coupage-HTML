@@ -1,39 +1,145 @@
+
+
 #newsletter{
   background-color: purple;
+  display: flex;
+  
   }
+
+
 #newsletter img{
   width: 50px;
 }
+
+
 .logo{
   display: inline-block;
+  
+  
+
 }
+/* input */
 
 #champs_newsletter div{
   display: flex;
   align-items: center;
   justify-content: center;  
+  margin-left: 450px;
+  margin-top: 15px;
 }
 
+/* button */
+
+button{
+  background-color: rgb(98, 211, 98);
+  color: white;
+  border-radius: 3px;
+}
+
+/* input */
+
+input{
+  border-radius: 3px;
+  margin-right: 5px;
+}
+
+
+/* du texte  */
+
+#champs_newsletter>div>span{
+
+  margin-right: 5px;
+}
+
+/* header */
+
+header{
+  
+}
+
+
+
 nav{
-  border: solid green 3px;
+  display: flex;
+  
+}
+
+/* logo molengeek */
+
+
+nav>.logo{
+  width: max-content; 
+  height: max-content;
+  text-align: center;
+  justify-content: center;
+  margin-top: 10px;
+  margin-left: 30px;
+
+  
+}
+
+nav>.logo>img{
+  height: 80px;
+  width: 200px;
+}
+
+/* navbar */
+
+.menu{
+  width: 100%;
+  
+}
+
+/* change color bullet list */
+
+li::before{
+
+  color: red;
+
+}
+
+
+/* liens */
+
+
+
+.menu>ul{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 50px;
   
 }
 
 #contenu{
-  border: solid green 3px;
   position: relative;
   text-align: left;
   padding: auto;
 
 }
 /* molengeek */
+
 #contenu>h1{
 text-align: center;
 font-size: 50px;
 position: relative;
-border: solid green 3px;
+font-family: ;
+
+}
 
 
+/* PETITE BARRE : molengeek before */
+
+#contenu>h1::before{
+  content: "";
+  background-color: purple;
+  border-radius: 5px;
+  height: 5px;
+  bottom: 0;
+  width: 100px;
+  position: absolute;
+  left: 46%;
+  top: 70px;
 }
 
 /* p */
@@ -44,7 +150,6 @@ margin-left: 17%;}
 
 #contenu>:nth-child(3){
   margin-left: 17%;
-  border: solid green 3px;
 }
 
 /* où se situe */
@@ -52,7 +157,6 @@ margin-left: 17%;}
   text-align: left;
   font-size: 30px;
   position: relative;
-  border: solid green 3px;
   margin-left: 17%;
 
   }
@@ -64,33 +168,34 @@ margin-left: 17%;}
  } 
   
 
- footer{
-   border: solid 3px green;
-   background-color: rgb(206, 201, 201);
-   height: 300px;
-   position: relative;
-   display: flex;
-   justify-content: center;
- }
-
+ 
 /*  liens  */
 
  #section{
   position: ;
-height: 100px;  
-width: 50%;
+  height: 100px;  
+  width: 50%;
 margin-top: 30px;
-  background-color: red;
   display: flex;
   justify-content: space-around;
   align-items: center;
 
  }
 
+/* footer */
+
+ footer{
+  background-color: rgb(83, 75, 75);
+  height: 300px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  display: flex;
+}
+
 
 footer>p{
 
-  background-color: red;
   height: max-content;
   position: absolute;
   bottom: 0%;
@@ -99,7 +204,25 @@ footer>p{
 
 
 
- .section{
-  border: solid 3px green;
+/* Logo molengeek 2 */
 
- }
+footer>:nth-child(2){
+
+width: max-content;
+height: max-content;
+position: absolute;
+margin-top: 150px;
+
+
+}
+
+
+
+
+/* link en noir */
+
+a{
+  color: black;
+}
+
+ 
