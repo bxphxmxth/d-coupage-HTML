@@ -1,0 +1,105 @@
+#newsletter{
+  background-color: purple;
+  }
+#newsletter img{
+  width: 50px;
+}
+.logo{
+  display: inline-block;
+}
+
+#champs_newsletter div{
+  display: flex;
+  align-items: center;
+  justify-content: center;  
+}
+
+nav{
+  border: solid green 3px;
+  
+}
+
+#contenu{
+  border: solid green 3px;
+  position: relative;
+  text-align: left;
+  padding: auto;
+
+}
+/* molengeek */
+#contenu>h1{
+text-align: center;
+font-size: 50px;
+position: relative;
+border: solid green 3px;
+
+
+}
+
+/* p */
+#contenu>:nth-child(2) {
+margin-left: 17%;}
+
+/* li */
+
+#contenu>:nth-child(3){
+  margin-left: 17%;
+  border: solid green 3px;
+}
+
+/* où se situe */
+#contenu>h2{
+  text-align: left;
+  font-size: 30px;
+  position: relative;
+  border: solid green 3px;
+  margin-left: 17%;
+
+  }
+
+/* p en dessous de où se situe molengeek */
+ #contenu>:nth-child(5),#contenu>:nth-child(6),#contenu>:nth-child(7){
+   margin-left: 17%;
+   margin-right: 10%;
+ } 
+  
+
+ footer{
+   border: solid 3px green;
+   background-color: rgb(206, 201, 201);
+   height: 300px;
+   position: relative;
+   display: flex;
+   justify-content: center;
+ }
+
+/*  liens  */
+
+ #section{
+  position: ;
+height: 100px;  
+width: 50%;
+margin-top: 30px;
+  background-color: red;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+ }
+
+
+footer>p{
+
+  background-color: red;
+  height: max-content;
+  position: absolute;
+  bottom: 0%;
+}
+
+
+
+
+ .section{
+  border: solid 3px green;
+
+ }
